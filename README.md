@@ -25,3 +25,8 @@ What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
 **My implementation will have a final complexity of $\theta(|V|^2).  My implementation has a while loop (which can be dumbed down to a for loop of length |V|) that has two other for loops nested within it. Both of those for loops have a length equal to |V|. Those add up to $2|V|$, inside of another loop, which mutliplies them to be $2|V|^2$. Since scalars don't have any bearing on asymptotic complexity, it simplifies down to just $\theta(|V|^2)$**
+
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+Noah Vogt helped me get understand how to actually go through and start implementing Dijkstra's after I sat there doing nothing for about 30 minutes. 
