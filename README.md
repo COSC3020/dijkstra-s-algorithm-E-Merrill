@@ -24,7 +24,7 @@ inefficient.
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
-**My implementation will have a final complexity of $\theta(|V|^2)$.  My implementation has a while loop (which can be dumbed down to a for loop of length |V|) that has two other for loops nested within it. Both of those for loops have a length equal to |V|. Regardless of how many edges are in the matrix, both of these loops will iterate |V| times. Those add up to $2|V|$, and are inside of another loop, giving $|V| * (2|V|)$ which mutliplies to be $2|V|^2$. Since scalars don't have any bearing on asymptotic complexity, it simplifies down to just $\theta(|V|^2)$**
+**My implementation will have a final complexity of $\theta(|V|^2)$.  My implementation has a while loop (which can be dumbed down to a for loop of length |V|) that has two other for loops nested within it. Both of those for loops have a length equal to |V|. Regardless of how many edges are in the matrix, both of these loops will iterate |V| times. Those add up to $2|V|$, and are inside of the previously mentioned while loop, giving $|V| * (2|V|)$ which mutliplies to be $2|V|^2$. Since scalars don't have any bearing on asymptotic complexity, it simplifies down to just $\theta(|V|^2)$**
 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
